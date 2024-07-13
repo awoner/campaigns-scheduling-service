@@ -8,7 +8,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="CsvHelper" Version="33.0.1" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.3"/>
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
     </ItemGroup>
@@ -17,6 +16,12 @@
       <Content Include="..\.dockerignore">
         <Link>.dockerignore</Link>
       </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CampaignsSchedulingService.Application\CampaignsSchedulingService.Application.csproj" />
+      <ProjectReference Include="..\CampaignsSchedulingService.Domain\CampaignsSchedulingService.Domain.csproj" />
+      <ProjectReference Include="..\CampaignsSchedulingService.Infrastructure\CampaignsSchedulingService.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>

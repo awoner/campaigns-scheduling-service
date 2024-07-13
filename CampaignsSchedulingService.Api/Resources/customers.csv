@@ -1,4 +1,4 @@
-CUSTOMER_ID,Age,Gender,City,Deposit,NewCustomer
+Id,Age,Gender,City,Deposit,NewCustomer
 1,53,Male,London,104,0
 2,44,Female,New York,209,1
 3,36,Male,New York,208,1

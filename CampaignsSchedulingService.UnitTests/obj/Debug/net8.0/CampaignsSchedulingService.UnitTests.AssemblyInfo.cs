@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CampaignsSchedulingService.UnitTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a79d8e71d9c3f108417e69c5cb06e1eb2cad60f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CampaignsSchedulingService.UnitTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CampaignsSchedulingService.UnitTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

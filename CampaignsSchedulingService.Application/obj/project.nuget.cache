@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "bfnTW6BQ2mJgn/lNYFNsUMKFx/KfnnuhgV9QoqH6UXfRTbQUFk1dkebAoP+AA3fUIQ9aYJrZVo0E36/G8BVo3g==",
+  "success": true,
+  "projectFilePath": "C:\\test-tasks\\gemicle\\CampaignsSchedulingService\\CampaignsSchedulingService.Application\\CampaignsSchedulingService.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Oleksiy.Artamonov\\.nuget\\packages\\csvhelper\\33.0.1\\csvhelper.33.0.1.nupkg.sha512",
+    "C:\\Users\\Oleksiy.Artamonov\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\8.0.0\\microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Oleksiy.Artamonov\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\8.0.0\\microsoft.extensions.fileproviders.embedded.8.0.0.nupkg.sha512",
+    "C:\\Users\\Oleksiy.Artamonov\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

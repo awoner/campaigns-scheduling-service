@@ -1,9 +1,27 @@
+using CampaignsSchedulingService.Api.BackgroundJobs;
+using CampaignsSchedulingService.Application.Services;
+using CampaignsSchedulingService.Domain.Entities;
+using CampaignsSchedulingService.Infrastructure.Dals;
+using CampaignsSchedulingService.Infrastructure.Persistence.Convertors;
+using CampaignsSchedulingService.Infrastructure.Persistence.Repositories;
+using CampaignsSchedulingService.Infrastructure.Providers;
+using CampaignsSchedulingService.Infrastructure.Scheduling;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddHostedService<CampaignsSendingJob>();
+builder.Services.AddHostedService<DailyCustomerClearingJob>();
+
+builder.Services.AddSingleton<ICsvFileProvider<CustomerDal>, CustomerCsvProvider>();
+builder.Services.AddScoped<IRepository<Customer>, CustomerCsvRepository>();
+builder.Services.AddScoped<IConvertor<Customer, CustomerDal>, CustomerConvertor>();
+
+builder.Services.AddSingleton<ICsvFileProvider<CampaignDal>, CampaignCsvProvider>();
+builder.Services.AddSingleton<IRepository<Campaign>, CampaignInMemoryRepository>();
+builder.Services.AddScoped<ISender<Campaign>, CampaignSender>();
+builder.Services.AddScoped<IConvertor<Campaign, CampaignDal>, CampaignConvertor>();
+builder.Services.AddScoped<ISchedulingProcessor<Campaign>, CampaignSchedulingProcessor>();
 
 var app = builder.Build();
 
@@ -14,31 +32,4 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
-
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
-app.MapGet("/weatherforecast", () =>
-    {
-        var forecast = Enumerable.Range(1, 5).Select(index =>
-                new WeatherForecast
-                (
-                    DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-                    Random.Shared.Next(-20, 55),
-                    summaries[Random.Shared.Next(summaries.Length)]
-                ))
-            .ToArray();
-        return forecast;
-    })
-    .WithName("GetWeatherForecast")
-    .WithOpenApi();
-
 app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
