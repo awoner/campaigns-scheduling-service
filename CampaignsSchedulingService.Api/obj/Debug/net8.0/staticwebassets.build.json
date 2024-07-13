@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ATTW7PncQlHc6FvGtFKlaCNgF/AI/3lhAXLKCEisoY8=",
+  "Source": "CampaignsSchedulingService.Api",
+  "BasePath": "_content/CampaignsSchedulingService.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

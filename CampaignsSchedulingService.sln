@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampaignsSchedulingService.Api", "CampaignsSchedulingService.Api\CampaignsSchedulingService.Api.csproj", "{FCE13BFE-3C18-4E39-A185-DC9FC4FC3498}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{675A02F0-C554-49D1-B48E-4E3603486612}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{09BF7293-A5D8-439D-BB9C-01F0806F57BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampaignsSchedulingService.UnitTests", "CampaignsSchedulingService.UnitTests\CampaignsSchedulingService.UnitTests.csproj", "{2B4DF907-2145-4AA3-9CCA-FD887CCBEAE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampaignsSchedulingService.ComponentTests", "CampaignsSchedulingService.ComponentTests\CampaignsSchedulingService.ComponentTests.csproj", "{D0FC6B66-E46F-49BD-A7A5-30D1F05ABBBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampaignsSchedulingService.Domain", "CampaignsSchedulingService.Domain\CampaignsSchedulingService.Domain.csproj", "{DEFCB2E9-BB39-4D4E-BAB9-B29C0D24DF55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampaignsSchedulingService.Infrastructure", "CampaignsSchedulingService.Infrastructure\CampaignsSchedulingService.Infrastructure.csproj", "{CC087EBC-F067-4B9E-A636-DA6ADC51597E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampaignsSchedulingService.Application", "CampaignsSchedulingService.Application\CampaignsSchedulingService.Application.csproj", "{3C15A7F6-2E81-4147-8B7E-85C3CA9807E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCE13BFE-3C18-4E39-A185-DC9FC4FC3498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCE13BFE-3C18-4E39-A185-DC9FC4FC3498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCE13BFE-3C18-4E39-A185-DC9FC4FC3498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCE13BFE-3C18-4E39-A185-DC9FC4FC3498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B4DF907-2145-4AA3-9CCA-FD887CCBEAE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B4DF907-2145-4AA3-9CCA-FD887CCBEAE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B4DF907-2145-4AA3-9CCA-FD887CCBEAE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B4DF907-2145-4AA3-9CCA-FD887CCBEAE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0FC6B66-E46F-49BD-A7A5-30D1F05ABBBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0FC6B66-E46F-49BD-A7A5-30D1F05ABBBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0FC6B66-E46F-49BD-A7A5-30D1F05ABBBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0FC6B66-E46F-49BD-A7A5-30D1F05ABBBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEFCB2E9-BB39-4D4E-BAB9-B29C0D24DF55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEFCB2E9-BB39-4D4E-BAB9-B29C0D24DF55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEFCB2E9-BB39-4D4E-BAB9-B29C0D24DF55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEFCB2E9-BB39-4D4E-BAB9-B29C0D24DF55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC087EBC-F067-4B9E-A636-DA6ADC51597E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC087EBC-F067-4B9E-A636-DA6ADC51597E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC087EBC-F067-4B9E-A636-DA6ADC51597E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC087EBC-F067-4B9E-A636-DA6ADC51597E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C15A7F6-2E81-4147-8B7E-85C3CA9807E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C15A7F6-2E81-4147-8B7E-85C3CA9807E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C15A7F6-2E81-4147-8B7E-85C3CA9807E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C15A7F6-2E81-4147-8B7E-85C3CA9807E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FCE13BFE-3C18-4E39-A185-DC9FC4FC3498} = {675A02F0-C554-49D1-B48E-4E3603486612}
+		{2B4DF907-2145-4AA3-9CCA-FD887CCBEAE8} = {09BF7293-A5D8-439D-BB9C-01F0806F57BB}
+		{D0FC6B66-E46F-49BD-A7A5-30D1F05ABBBF} = {09BF7293-A5D8-439D-BB9C-01F0806F57BB}
+		{DEFCB2E9-BB39-4D4E-BAB9-B29C0D24DF55} = {675A02F0-C554-49D1-B48E-4E3603486612}
+		{CC087EBC-F067-4B9E-A636-DA6ADC51597E} = {675A02F0-C554-49D1-B48E-4E3603486612}
+		{3C15A7F6-2E81-4147-8B7E-85C3CA9807E0} = {675A02F0-C554-49D1-B48E-4E3603486612}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+C:\test-tasks\gemicle\CampaignsSchedulingService\CampaignsSchedulingService.Infrastructure\bin\Debug\net8.0\CampaignsSchedulingService.Infrastructure.deps.json
+C:\test-tasks\gemicle\CampaignsSchedulingService\CampaignsSchedulingService.Infrastructure\bin\Debug\net8.0\CampaignsSchedulingService.Infrastructure.dll
+C:\test-tasks\gemicle\CampaignsSchedulingService\CampaignsSchedulingService.Infrastructure\bin\Debug\net8.0\CampaignsSchedulingService.Infrastructure.pdb
+C:\test-tasks\gemicle\CampaignsSchedulingService\CampaignsSchedulingService.Infrastructure\bin\Debug\net8.0\CampaignsSchedulingService.Domain.dll
+C:\test-tasks\gemicle\CampaignsSchedulingService\CampaignsSchedulingService.Infrastructure\bin\Debug\net8.0\CampaignsSchedulingService.Domain.pdb
+C:\test-tasks\gemicle\CampaignsSchedulingService\CampaignsSchedulingService.Infrastructure\obj\Debug\net8.0\CampaignsSchedulingService.Infrastructure.csproj.AssemblyReference.cache
+C:\test-tasks\gemicle\CampaignsSchedulingService\CampaignsSchedulingService.Infrastructure\obj\Debug\net8.0\CampaignsSchedulingService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\test-tasks\gemicle\CampaignsSchedulingService\CampaignsSchedulingService.Infrastructure\obj\Debug\net8.0\CampaignsSchedulingService.Infrastructure.AssemblyInfoInputs.cache
+C:\test-tasks\gemicle\CampaignsSchedulingService\CampaignsSchedulingService.Infrastructure\obj\Debug\net8.0\CampaignsSchedulingService.Infrastructure.AssemblyInfo.cs
+C:\test-tasks\gemicle\CampaignsSchedulingService\CampaignsSchedulingService.Infrastructure\obj\Debug\net8.0\CampaignsSchedulingService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\test-tasks\gemicle\CampaignsSchedulingService\CampaignsSchedulingService.Infrastructure\obj\Debug\net8.0\CampaignsSchedulingService.Infrastructure.sourcelink.json
+C:\test-tasks\gemicle\CampaignsSchedulingService\CampaignsSchedulingService.Infrastructure\obj\Debug\net8.0\Campaign.D8F87018.Up2Date
+C:\test-tasks\gemicle\CampaignsSchedulingService\CampaignsSchedulingService.Infrastructure\obj\Debug\net8.0\CampaignsSchedulingService.Infrastructure.dll
+C:\test-tasks\gemicle\CampaignsSchedulingService\CampaignsSchedulingService.Infrastructure\obj\Debug\net8.0\refint\CampaignsSchedulingService.Infrastructure.dll
+C:\test-tasks\gemicle\CampaignsSchedulingService\CampaignsSchedulingService.Infrastructure\obj\Debug\net8.0\CampaignsSchedulingService.Infrastructure.pdb
+C:\test-tasks\gemicle\CampaignsSchedulingService\CampaignsSchedulingService.Infrastructure\obj\Debug\net8.0\ref\CampaignsSchedulingService.Infrastructure.dll

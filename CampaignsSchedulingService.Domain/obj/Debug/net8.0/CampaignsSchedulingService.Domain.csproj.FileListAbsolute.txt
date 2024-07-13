@@ -1,0 +1,12 @@
+C:\test-tasks\gemicle\CampaignsSchedulingService\CampaignsSchedulingService.Domain\bin\Debug\net8.0\CampaignsSchedulingService.Domain.deps.json
+C:\test-tasks\gemicle\CampaignsSchedulingService\CampaignsSchedulingService.Domain\bin\Debug\net8.0\CampaignsSchedulingService.Domain.dll
+C:\test-tasks\gemicle\CampaignsSchedulingService\CampaignsSchedulingService.Domain\bin\Debug\net8.0\CampaignsSchedulingService.Domain.pdb
+C:\test-tasks\gemicle\CampaignsSchedulingService\CampaignsSchedulingService.Domain\obj\Debug\net8.0\CampaignsSchedulingService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\test-tasks\gemicle\CampaignsSchedulingService\CampaignsSchedulingService.Domain\obj\Debug\net8.0\CampaignsSchedulingService.Domain.AssemblyInfoInputs.cache
+C:\test-tasks\gemicle\CampaignsSchedulingService\CampaignsSchedulingService.Domain\obj\Debug\net8.0\CampaignsSchedulingService.Domain.AssemblyInfo.cs
+C:\test-tasks\gemicle\CampaignsSchedulingService\CampaignsSchedulingService.Domain\obj\Debug\net8.0\CampaignsSchedulingService.Domain.csproj.CoreCompileInputs.cache
+C:\test-tasks\gemicle\CampaignsSchedulingService\CampaignsSchedulingService.Domain\obj\Debug\net8.0\CampaignsSchedulingService.Domain.sourcelink.json
+C:\test-tasks\gemicle\CampaignsSchedulingService\CampaignsSchedulingService.Domain\obj\Debug\net8.0\CampaignsSchedulingService.Domain.dll
+C:\test-tasks\gemicle\CampaignsSchedulingService\CampaignsSchedulingService.Domain\obj\Debug\net8.0\refint\CampaignsSchedulingService.Domain.dll
+C:\test-tasks\gemicle\CampaignsSchedulingService\CampaignsSchedulingService.Domain\obj\Debug\net8.0\CampaignsSchedulingService.Domain.pdb
+C:\test-tasks\gemicle\CampaignsSchedulingService\CampaignsSchedulingService.Domain\obj\Debug\net8.0\ref\CampaignsSchedulingService.Domain.dll
